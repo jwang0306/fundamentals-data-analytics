@@ -105,7 +105,7 @@ export_graphviz(dtree,
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 ```
 
-<img src="test_noise.png" width="900" />
+<img src="imgs/test_noise.png" width="900" />
 
 ### What about the accuracy?
 ```
@@ -140,7 +140,7 @@ export_graphviz(dtree,
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 graph.write_png("test_depth.png")
 ```
-<img src="test_depth.png" width="600" />
+<img src="imgs/test_depth.png" width="600" />
 
 #### accuracy: 0.9658
 
